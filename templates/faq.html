@@ -1,27 +1,27 @@
 {%  extends "regular.html" %}
 {% block body %}
-  <h1 id="limits">Frequently asked questions</h1>
+  <h1 id="limits">Често постављена питања</h1>
 
   <h2>
-    Can I use ShareX to upload?
+    Могу ли користити ShareX а аплауд датотеке?
   </h2>
-  <p>Sure thing! Here's the config: <a href="https://paste.thebitstick.xyz/owosevujod">i am link</a></p>
-  <p>Import that as a custom uploader and fire away</p>
+  <p>Наравно! Ево ти конфигурациона датотека: <a href="https://paste.thebitstick.xyz/owosevujod">ја сам линк</a></p>
+  <p>Подеси то као "Custom uploader" и уживај</p>
 
   <h2>
-    Can I upload using my phone?
+    Могу ли аплаудовати коришћењем телефона?
   </h2>
-  <p>Sure, go ahead. You might even want to <a href="{{ url_for('static', filename="AddToHomescreen.png") }}">add {{ page.title }} to your homescreen</a>.</p>
+  <p>Наравно, само напред! Можда ћеш такође желети да додаш Upflask на свој <a href="{{ url_for('static', filename="AddToHomescreen.png") }}">add {{ page.title }} почетни екран.</a>.</p>
 
   <h2>
-    Who runs this thing
+    Ко води ови чудо
   </h2>
-  <p>A guy called BitStick (<a href="https://www.thebitstick.xyz">Website</a>)</p>
+  <p>Момак зван BitStick (<a href="https://www.thebitstick.xyz">вебстрана</a>)</p>
 
   <h2>
-    What powers this site?
+    Шта покреће ову вебстану?
   </h2>
-  <p>The server itself is a Raspberry Pi, sitting behind CloudFlare.</p>
-  <p>The actual site is purely Python/Flask powered.</p>
+  <p>Сервер је Распбери пај, скривен иза CloudFlare-а.</p>
+  <p>Страница је у потпуности покренута помоћу Пајтона/Фласка</p>
 
 {% endblock %}
